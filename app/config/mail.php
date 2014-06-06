@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => 'madrill',
+	'driver' => 'mandrill',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+	'from' => array('address' => 'noreply@pjtitle.com', 'name' => 'Pump Jack Title'),
 
 	/*
 	|--------------------------------------------------------------------------

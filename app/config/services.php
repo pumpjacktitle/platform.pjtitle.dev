@@ -14,18 +14,13 @@ return array(
 	|
 	*/
 
-	'mailgun' => array(
-		'domain' => '',
-		'secret' => '',
-	),
-
 	'mandrill' => array(
-		'secret' => '',
+		'secret' => getenv('MANDRILL_API_SECRET'),
 	),
 
 	'stripe' => array(
 		'model'  => 'User',
-		'secret' => '',
+		'secret' => getenv('STRIPE_API_SECRET'),
 	),
 
 );
